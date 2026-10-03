@@ -1,0 +1,7 @@
+# Ubuntu 20.04 ships Python 3.8. This is the last RealSense wheel supporting it.
+pyrealsense2==2.55.1.6486; python_version < "3.9"
+# Newer Ubuntu LTS releases should receive a wheel matching their Python version.
+pyrealsense2>=2.56; python_version >= "3.9"
+numpy>=1.19.3
+opencv-python>=4.5
+
